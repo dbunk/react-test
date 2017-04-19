@@ -4,7 +4,8 @@ class App extends React.Component {
    render() {
       return (
          <div>
-            Hello World!!!
+            <h1>{this.props.headerProp}</h1>
+            <h2>{this.props.contentProp}</h2>
          </div>
       );
    }
